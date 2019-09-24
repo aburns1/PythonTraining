@@ -1,7 +1,7 @@
 import time
 
 
-def make_timer():
+def make_timer():           # should really be called stopwatch...
     last_called = None
 
     def elapsed():
